@@ -1,2 +1,0 @@
-[2025-12-18 17:13:35] Error 2: mysqli::__construct(): (HY000/1045): Access denied for user 'ddu_admin'@'localhost' (using password: YES) in C:\xampp\htdocs\ddu_attendance\includes\db_connect.php on line 16
-[2025-12-18 17:13:35] Error 2: mysqli::__construct(): (HY000/1045): Access denied for user 'ddu_admin'@'localhost' (using password: YES) in C:\xampp\htdocs\ddu_attendance\includes\db_connect.php on line 19
