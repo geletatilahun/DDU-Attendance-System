@@ -1,0 +1,60 @@
+this is the structure of the project you have develop for me at the very initial of the project: those marked with * are done, can you write code for those only you've not write code for them or those not marked with *:   
+ddu_attendance/
+├── index.php   *                   # Landing page
+├── login.php   *                   # Login page
+├── logout.php  *                   # Logout script
+├── dashboard.php  *                # Main dashboard (role-based)
+│
+├── includes/
+│   ├── db_connect.php    *         # Database connection
+│   ├── auth.php          *         # Authentication functions
+│   ├── functions.php     *         # Common functions
+│   └── header.php        *         # Common header
+│
+├── admin/
+│   ├── dashboard.php        *     # Admin dashboard
+│   ├── manage_users.php           # Manage all users
+│   ├── manage_students.php        # Manage students
+│   ├── manage_courses.php         # Manage courses
+│   ├── manage_departments.php     # Manage departments
+│   ├── reports.php                # System reports
+│   └── settings.php               # System settings
+│
+├── teacher/
+│   ├── dashboard.php              # Teacher dashboard
+│   ├── my_courses.php             # Assigned courses
+│   ├── take_attendance.php        # Take attendance
+│   ├── attendance_history.php     # View attendance history
+│   ├── students.php               # View enrolled students
+│   └── reports.php                # Generate reports
+│
+├── student/
+│   ├── dashboard.php              # Student dashboard
+│   ├── my_attendance.php          # View attendance
+│   ├── my_courses.php             # Enrolled courses
+│   ├── request_leave.php          # Request leave
+│   └── profile.php                # Student profile
+│
+├── dean/
+│   ├── dashboard.php            *  # Dean dashboard
+│   ├── department_report.php    *  # Department reports
+│   └── student_performance.php  *  # Student performance
+│
+├── api/
+│   ├── attendance.php           *  # API for attendance
+│   ├── students.php             *  # API for student data
+│   └── reports.php              *  # API for reports
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css           *  # Main stylesheet
+│   ├── js/
+│   │   └── main.js             *  # Main JavaScript
+│   └── images/                    # Images and icons
+│
+├── uploads/                       # File uploads directory
+│   ├── profiles/                  # Profile pictures
+│   └── documents/                 # Leave documents
+│
+└── config/
+    └── config.php              *   # Configuration file
